@@ -1,0 +1,92 @@
+/* Style for the main container */
+.login-container {
+  position: relative;
+  max-width: 400px;
+  width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  text-align: center;
+}
+
+/* Style for the welcome heading */
+.welcome-heading {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Style for the login heading */
+.login-heading {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+/* Style for the input fields */
+.login-input {
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 80%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+
+/* Style for the main login button */
+.login-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  width: 50%;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #319795;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #2f8585;
+  transform: scale(1.02);
+}
+
+/* Style for the additional text (e.g., "Sau autentifică-te folosind:") */
+.login-text {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Style for the social login container */
+.social-login-container {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* Style for the social login buttons */
+.social-login-button {
+  width: 70%;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Style for the create account text */
+.create-account-text {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.css-1v3uajd {
+  right: -10px !important;
+}

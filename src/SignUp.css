@@ -1,0 +1,100 @@
+/* SignUp.css */
+
+.sign-up-container {
+  position: relative;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  z-index: 1;
+  overflow: hidden; /* Asigură-te că pseudo-elementul nu depășește marginile containerului */
+}
+
+.sign-up-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; /* Ajustează această valoare pentru a controla transparența imaginii */
+  z-index: -1;
+}
+
+.sign-up-heading {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333333;
+}
+
+.sign-up-input {
+  width: 100%; /* Asigură că input-ul se extinde pe întreaga lățime a containerului */
+  padding: 14px;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+  font-weight: 900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sign-up-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  width: 50%;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #319795;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sign-up-button:hover {
+  background-color: #2f8585;
+  transform: scale(1.02);
+}
+
+/* Stil pentru InputGroup și InputRightElement */
+.password-input-group {
+  position: relative;
+}
+
+.password-eye-icon {
+  position: absolute;
+  right: 0;
+  top: 80%;
+  transform: translateY(-50%); /* Centrarea verticală */
+  padding: 0 8px; /* Spațiu între iconiță și marginea input-ului */
+  cursor: pointer; /* Asigură că iconița arată ca un buton */
+}
+.css-1q151zw {
+  width: 30px;
+  /* Background gradient pentru un aspect modern */
+  background: #EDF2F7;
+  margin-right: 5px;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px !important;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 50px; /* Adaugă un spațiu în partea de sus pentru a-l poziționa mai jos */
+  display: block; /* Asigură că butonul stă într-un singur rând */
+  width: 100%; /* Face butonul să ocupe toată lățimea containerului */
+  text-align: center; /* Centrare text */
+}
+
+
+
+
